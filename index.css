@@ -1,0 +1,94 @@
+* {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #62bb4b;
+}
+
+
+
+/* modal */
+.modal-render {
+    width:80%;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.75);
+}
+
+section.modal-page {
+	position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0 5px 10px rgba(0,0,0,1);
+    border-radius:10px;
+}
+
+header.modal-page {
+	margin-bottom: 15px;
+}
+
+.img {
+	max-width: 100%;
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+section  {
+	min-width: 50%;
+	min-height: 50%;
+	background-color: black;
+	border: 2px solid #62bb4b;
+	margin: auto; 
+	text-align: center;
+	padding: 5%;
+	border-radius:10px;
+	font-size: 15px;
+	font-weight: bold;
+	top:50%;
+    left:50%;
+    position:absolute;
+	transform:translate(-50%, -50%);
+	font-weight: 300;
+	
+	
+}
+
+.button {
+	display: block;
+	margin: auto;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	border-radius: 25px;
+	font-weight: 400;
+	color: #000060;
+	background-color: #62bb4b;
+}
+
+@media only screen and (min-width: 740px) {
+
+body {
+	background-image: url("http://static.tvtropes.org/pmwiki/pub/images/rickandmorty.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.questions-page-header, .modal-page-header, .conclusion-page-header {
+	font-size: 30px;
+}
+
+.questions-page-para, .modal-page-para {
+	font-size: 25px;
+}
+
+.answer1, .answer2, .answer3, .answer4 {
+	font-size: 20px;
+}
+
+}
